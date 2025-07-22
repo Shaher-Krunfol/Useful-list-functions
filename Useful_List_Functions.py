@@ -17,12 +17,18 @@ def median_number(list):
         return sorted_list[mid]
     
 def mode_number(list):
+    max_count = 0
+    mode = None
     for num in list:
-        if list.count(num) > 1:
-            return num
+        count = list.count(num)
+        if count > max_count:
+            max_count = count
+            mode = num
+    return mode
+
         
 def remove_duplicates(list):
-    return list(set(list))
+    return list(dict.fromkeys(list))
         
 def add_to_list(list, value):
     list.append(value)
