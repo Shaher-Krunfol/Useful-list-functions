@@ -25,7 +25,6 @@ def mode_number(list):
             max_count = count
             mode = num
     return mode
-
         
 def remove_duplicates(list):
     return list(dict.fromkeys(list))
