@@ -2,6 +2,7 @@
 I figured the best way to practice my uderstanding of list in Python is to implmenet as many useful functions as I can.
 **Note: I tried to not use libraries to ensure compatibility, since not everyone has all the libraries.**
 **Note: I will keep adding functions as long as I have an idea of one.**
+Please feel free to review the code and let me know if I got something wrong.
 
 # List Manipulation Functions
 
